@@ -25,6 +25,15 @@ namespace DuendeIdP
             ProtocolType = IdentityServerConstants.ProtocolTypes.WsFederation
         };
 
+        private static readonly Client RelyingParty1 = new Client
+        {
+            ClientId = "https://localhost:44313/",
+            AllowedScopes = { "openid", "profile" },
+            RedirectUris = { "https://localhost:44313/signin-wsfed" },
+            RequireConsent = false,
+            ProtocolType = IdentityServerConstants.ProtocolTypes.WsFederation
+        };
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
@@ -47,7 +56,7 @@ namespace DuendeIdP
                 .AddTestUsers(TestUsers.Users)
                 .AddInMemoryIdentityResources(Config.IdentityResources)
                 .AddInMemoryApiResources(new List<ApiResource>())
-                .AddInMemoryClients(new List<Client> { RelyingParty })
+                .AddInMemoryClients(new List<Client> { RelyingParty, RelyingParty1 })
                 .AddWsFederationPlugin(options =>
                 {
                     options.Licensee = "DEMO";
