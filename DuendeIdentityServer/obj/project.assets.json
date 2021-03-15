@@ -4031,31 +4031,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SundasChoudry\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\myousuf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\WsFederation\\Samples.IdentityServer4.WsFederationIntegration\\DuendeIdentityServer\\DuendeIdentityServer.csproj",
+      "projectUniqueName": "D:\\source\\repos\\Samples.IdentityServer4.WsFederationIntegration\\DuendeIdentityServer\\DuendeIdentityServer.csproj",
       "projectName": "DuendeIdentityServer",
-      "projectPath": "C:\\Git\\WsFederation\\Samples.IdentityServer4.WsFederationIntegration\\DuendeIdentityServer\\DuendeIdentityServer.csproj",
-      "packagesPath": "C:\\Users\\SundasChoudry\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\WsFederation\\Samples.IdentityServer4.WsFederationIntegration\\DuendeIdentityServer\\obj\\",
+      "projectPath": "D:\\source\\repos\\Samples.IdentityServer4.WsFederationIntegration\\DuendeIdentityServer\\DuendeIdentityServer.csproj",
+      "packagesPath": "C:\\Users\\myousuf\\.nuget\\packages\\",
+      "outputPath": "D:\\source\\repos\\Samples.IdentityServer4.WsFederationIntegration\\DuendeIdentityServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SundasChoudry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\myousuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\ComponentSpace\\SAML 2 Core\\Disk1\\SAMLv20.Core-licensed\\SAML for .NET Core\\Bin": {},
-        "C:\\NuGet": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -4110,7 +4104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
